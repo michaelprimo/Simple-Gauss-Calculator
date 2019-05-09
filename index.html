@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gauss Calculator</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="row">
+            <h1 class="centertext">Simple Summation Calculator</p>
+        </div>
+        <div class="row">
+            <p class="centertext">Choose a number. This App will calculate the sum of the numbers from 1 to the number you choose.</p>
+        </div>
+        <div class="row centertext">
+            <input type="number" id="n_for_formula" name="quantity" min="1">
+        </div>
+        <div class="row centertext">
+                <input type="button" value="Calculate the result" onclick="gauss_calculator()">
+        </div>
+        <div class="row">
+            <p class="centertext trucco" id="result">The result will appear here:</p>   
+        </div>
+        <div class="row">
+            <p class="centertext ">The Gauss Summation Formula allows to calculate instantaneously sums of numbers. 
+                It works like this: (n*(n+1))/2. Even if with coding it's easy to sum numbers, this application use this formula.</p> 
+        </div>
+        <div class="row">
+               
+                    <p class="centertext "><a href="https://github.com/you" class="centertext">You can check the source code out on github and fork it! </a>  </p> 
+        </div>
+    </div>
+
+    <script src="gauss.js"></script>
+</body>
+</html>

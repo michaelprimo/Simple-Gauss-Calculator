@@ -1,0 +1,18 @@
+body
+{
+    background-color: #008;
+    font-family: 'Lato', sans-serif;
+}
+
+.container
+{
+    background-color: 	#FFFF99;
+    border-radius: 20px;
+    margin: 30px;
+    padding: 30px;
+}
+
+.centertext
+{
+    text-align: center;
+}
